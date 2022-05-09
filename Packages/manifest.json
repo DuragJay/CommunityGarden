@@ -1,5 +1,7 @@
 {
   "dependencies": {
+    "com.microsoft.azure.spatial-anchors-sdk.core": "file:/Users/jasonfotso/Downloads/com.microsoft.azure.spatial-anchors-sdk.core-2.12.0.tgz",
+    "com.microsoft.azure.spatial-anchors-sdk.ios": "file:/Users/jasonfotso/Downloads/com.microsoft.azure.spatial-anchors-sdk.ios-2.12.0.tgz",
     "com.unity.collab-proxy": "1.15.16",
     "com.unity.feature.mobile": "1.0.0",
     "com.unity.ide.rider": "3.0.13",
