@@ -101,3 +101,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d6ec7924d3b1416d8cf4f450e845764, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5817432450230440350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4501392110370713671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 815f51d0870a7498c8bdc0dea0030679, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _groundPrefabs:
+  - {fileID: 4848595299198093184, guid: 81ece5b4b2389884aaf767d4aab4d5df, type: 3}
+  _wallPrefabs: []
+  _groundNormalTolerance: 0.01
+  _wallNormalTolerance: 0.001
+  _spawnMinVertexCount: 100
+  _despawnMaxVertexCount: 50
+  _growthDuration: 4

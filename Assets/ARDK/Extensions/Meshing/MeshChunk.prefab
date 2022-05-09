@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2984845114046203985}
   - component: {fileID: 2955497416138822353}
   - component: {fileID: 2965882294894145647}
+  - component: {fileID: -2531869420205426708}
   m_Layer: 0
   m_Name: MeshChunk
   m_TagString: Untagged
@@ -28,6 +29,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -51,10 +53,12 @@ MeshRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -79,3 +83,24 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &-2531869420205426708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2988715159741781419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 815f51d0870a7498c8bdc0dea0030679, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _groundPrefabs:
+  - {fileID: 4848595299198093184, guid: 81ece5b4b2389884aaf767d4aab4d5df, type: 3}
+  _wallPrefabs: []
+  _groundNormalTolerance: 0.01
+  _wallNormalTolerance: 0.001
+  _spawnMinVertexCount: 100
+  _despawnMaxVertexCount: 50
+  _growthDuration: 4
