@@ -1,13 +1,26 @@
 {
-    "m_SelectedDeviceId": "",
+    "m_SelectedDeviceId": "RFCN80L1V8L",
     "m_SelectedPackage": {
-        "deviceId": "",
-        "name": "",
-        "processId": 0,
+        "deviceId": "RFCN80L1V8L",
+        "name": "com.DefaultCompany.CommunityGarden",
+        "processId": 17112,
         "exited": false
     },
     "m_SelectedPriority": 0,
-    "m_KnownPackagesForSerialization": [],
+    "m_KnownPackagesForSerialization": [
+        {
+            "deviceId": "RFCN80L1V8L",
+            "name": "com.DefaultCompany.CommunityGarden",
+            "processId": 4477,
+            "exited": false
+        },
+        {
+            "deviceId": "RFCN80L1V8L",
+            "name": "com.DefaultCompany.CommunityGarden",
+            "processId": 17112,
+            "exited": false
+        }
+    ],
     "m_Tags": {
         "m_Entries": [
             {
@@ -41,9 +54,20 @@
         ]
     },
     "m_MemoryViewerState": {
-        "MemoryWindowHeight": 0.0,
-        "MemoryWindowWidth": 0.0,
-        "MemoryTypeEnabled": [],
+        "MemoryWindowHeight": 300.0,
+        "MemoryWindowWidth": 170.0,
+        "MemoryTypeEnabled": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+        ],
         "MemoryGroup": 2,
         "Behavior": 0
     },
